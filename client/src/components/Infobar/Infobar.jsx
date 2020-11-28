@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import close from "../Icons/close.png";
+import "../Infobar/Infobar.css";
 
 function Infobar({room}) {
     return (
-        <div>
-            <h1>{room}</h1>
+        <div className="container2">
+            <i className="fa fa-circle"></i>
+            <h1 style={{fontFamily:"Sansita Swashed"}}>{room}</h1>
+            <a href="./"><img className={"close"} src={close} alt={"Close"}></img></a>
         </div>
     )
 }

@@ -1,0 +1,124 @@
+.admin_msg {
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  font-weight: 600;
+  background: #c5ccf1 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #2c249e;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.incoming_msg {
+  margin: 10px 0px;
+}
+.incoming_msg_img {
+  display: inline-block;
+}
+.incoming_msg_img > img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+}
+.received_withd_msg p {
+  background: #e4e8fb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #443c3c;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.myName {
+  color: #29a00b;
+  display: block;
+  font-size: 12px;
+  margin: 3px 0 0;
+}
+.senderName {
+  color: #e21a1a;
+  display: block;
+  font-size: 12px;
+  margin: 3px 0 0;
+}
+.received_withd_msg {
+  width: 70%;
+}
+
+.mesgs {
+  float: left;
+  padding: 40px;
+}
+
+.sent_msg p {
+  background: #3f51b5 none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+}
+.outgoing_msg {
+  overflow: hidden;
+  margin: 10px 0 5px;
+}
+.sent_msg {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {
+  border-top: 1px solid #c4c4c4;
+  position: relative;
+}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging {
+  background: #fff;
+}
+.msg_history {
+  max-height: 516px;
+  overflow-y: auto;
+}
+
+.credit {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.credit a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  border-bottom: dotted 1px;
+}

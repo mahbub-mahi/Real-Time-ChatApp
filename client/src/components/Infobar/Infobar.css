@@ -1,0 +1,26 @@
+.container2 {
+  margin: auto;
+  height: 80px;
+  width: 20%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  justify-content: center;
+  align-items: center;
+}
+.online {
+  width: 15px;
+  height: 13px;
+  margin: 0 10px;
+}
+.close {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.fa {
+  font-size: 20px;
+  color: rgb(46, 235, 77);
+}
+h1 {
+  margin: 0;
+}
